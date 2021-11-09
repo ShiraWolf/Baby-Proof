@@ -1,3 +1,5 @@
+// All further required documentation is in the instructable:
+// https://www.instructables.com/Baby-Proof-IOT/
 
 #include <ESP8266_Lib.h>
 #include <BlynkSimpleShieldEsp8266.h>
@@ -13,9 +15,9 @@
 #define SOUND_THRESHE 85 // the sound trheshold 
 ESP8266 wifi(&EspSerial);
 
-char ssid[] = "Shutaf";                              //enter your WIFI name (SSID) here 
-char pass[] = "12345678" ;                             //enter your WIFI password here 
-char auth[] = "NQ18T-GYJqcJInuhZbwd50XcXZjRM6M7";                              // BLYNK Auth' code -> change it
+char ssid[] = "";                              //enter your WIFI name (SSID) here 
+char pass[] = "" ;                             //enter your WIFI password here 
+char auth[] = "";                              // BLYNK Auth' code -> change it
 
 uint8_t appON = 0;
 uint8_t GameOn = 0;
